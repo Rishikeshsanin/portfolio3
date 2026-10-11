@@ -11,8 +11,8 @@ export default defineConfig({
          else, so about.html was simply absent from dist/ — which is why the deployed site 404'd
          on /about.html while the dev server, which serves the source tree directly, was fine. */
       input: {
-        main: resolve(__dirname, 'index.html'),
-        about: resolve(__dirname, 'about.html'),
+        main: resolve(import.meta.dirname, 'index.html'),
+        about: resolve(import.meta.dirname, 'about.html'),
       },
     },
   },
