@@ -107,6 +107,8 @@ export default function About() {
         <span className="mark"><a href="/">RM</a></span>
         <a className="link" href="/">Home</a>
         <a className="link" href="/about.html">About</a>
+        <a className="link" href="/assets/Rishikesh-Munnaluri-Resume.pdf" target="_blank" rel="noopener">Résumé ↗</a>
+        <a className="link" href="/assets/Rishikesh-Munnaluri-Resume.pdf" download="Rishikesh-Munnaluri-Resume.pdf">PDF ↓</a>
         {/* the contact stage lives at the end of the home page's scroll */}
         <a className="enter" href="/#contact">Contact</a>
       </nav>

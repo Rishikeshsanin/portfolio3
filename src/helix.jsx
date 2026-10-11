@@ -620,6 +620,7 @@ export default function Helix() {
         <span className="mark">RM</span>
         <a className="link" href="/">Home</a>
         <a className="link" href="/about.html">About</a>
+        <a className="link" href="/assets/Rishikesh-Munnaluri-Resume.pdf" target="_blank" rel="noopener noreferrer">Résumé ↗</a>
         <a className="enter" href="#contact" onClick={toContact}>Contact</a>
       </nav>
 
